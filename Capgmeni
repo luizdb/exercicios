@@ -1,0 +1,37 @@
+*// Exercício 1 - Escada
+
+public class escada {
+    public static void main(String[]args){
+    int n = 6;
+    System.out.println("     *");
+    System.out.println("    **");
+    System.out.println("   ***");
+    System.out.println("  ****");
+    System.out.println(" *****");
+    System.out.println("******");
+    }
+}
+
+*// Exercício 2 - Senha
+
+public class senha {
+    public static void main(String[]args){
+        String senha = "Ya3";
+        String senhasugerida = "Ya334$";
+        System.out.println("Você escreveu a senha: "+senha);
+        System.out.println("Você precisa de no minimo seis caracteres sendo uma letra maiuscula, uma letra minuscula e um simbolo.");
+        System.out.println("Sua senha pode ser: "+senhasugerida);
+        }
+}
+
+*// Exercício 3 - Anagrama
+
+public class anagrama {
+    public static void main(String[]args){
+        String anagrama1 = "lu";
+        String anagrama2 = "ul";
+        System.out.println("a palavra sugerida é: " +anagrama1);
+        System.out.println( "lu só pode ser inscrito como:" +anagrama2);
+        System.out.println("lu não possui nenhum letra em par");
+    }
+}
